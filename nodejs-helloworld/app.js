@@ -1,8 +1,8 @@
 var express = require('express');
 app = express();
-
+<secret>
 app.get('/', function (req, res) {
-  res.send('Hello world! We changed some code!');
+  res.send('Webhook test');
 });
 
 app.listen(8080, function () {
